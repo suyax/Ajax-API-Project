@@ -8,26 +8,33 @@ body {background-color: #CCC;}
     width:100%;
     z-index:-1;
     opacity:1;
+    max-height: 100%
 }
 
 .greeting {
     color:black;
-    text-shadow: 1px 1px 3px rgba(255,255,255, .5);
+    text-shadow: 1px 1px 3px rgba(255,255,255, 0.5);
     text-align: center;
 }
 
 .wikipedia-container {
     float:right;
-    width:290px;
+    width:39%;
     padding:10px;
-    margin-right: 10px;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.5);
+    height: 100%;
 }
 
 .nytimes-container {
     padding: 10px;
-    margin-right:300px;
-    background-color: rgba(255,255,255,0.7);
+    width:59%;
+    background-color: rgba(255,255,255,0.5);
+    height: 100%;
+}
+
+.wiki-list {
+    margin: 0;
+    padding: 0;
 }
 
 .article-list {
