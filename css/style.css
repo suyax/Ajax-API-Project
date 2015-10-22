@@ -52,17 +52,23 @@ label:first-child {
 
 .wikipedia-container {
     padding: 5px;
-    width:39%;
+    width:40%;
+    margin: 5px;
     background-color: rgba(255,255,255,0.5);
 }
 
 .nytimes-container {
     padding: 5px;
-    width:59%;
-    margin: auto;
+    width:60%;
+    margin: 5px;
     background-color: rgba(255,255,255,0.5);
 }
 
+.google-container {
+    overflow: hidden;
+    width: 100%;
+    height: 100%
+}
 .wiki-list {
     margin: 0;
     padding: 0;
@@ -93,7 +99,6 @@ label:first-child {
     color : black;
     padding-right: 20px;
     background : #ffffff;
-    margin-left:-2px; 
     background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(49%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6));
     background : -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
     background : -webkit-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
@@ -105,6 +110,7 @@ label:first-child {
 
 #street, #city { 
     margin-right: -5px; 
+    margin-left: -5px;
     border-style : solid 0px #e6e6e6;
     font-size: 18px;
     font-family: '.HelveticaNeueDeskInterface-Regular';
@@ -113,16 +119,3 @@ label:first-child {
     color: black; 
     background : #ffffff;
 } 
-
-#map {
-  display: block;
-  height: 100%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-#mapDiv {
-  height: 400px;
-  width: 100%;
-  padding-bottom: 5%;
-}
